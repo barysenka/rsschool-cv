@@ -40,3 +40,12 @@ Gomel State Polytechnic College
  
 - [Tic Tac Toe for CSS](https://github.com/barysenka/FD-1_Barysenka_Iryna.github.io/pull/12/files)
 - [My study project](https://github.com/barysenka/FD-1_Barysenka_Iryna.github.io/tree/project/project)
+
+
+## Skills  
+
+- HTML5
+- CSS3
+- basics JavaScript
+- Git
+- English A2.

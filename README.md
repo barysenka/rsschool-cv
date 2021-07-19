@@ -1,1 +1,0 @@
-https://barysenka.github.io/rsschool-cv/cv

@@ -20,8 +20,11 @@ I like to pursue excellence in everything I do.
 
 
 ## Education  
+From 01/22 to 03/22     
+Course JS/FE PRE-SCHOOL 2022 (THE ROLLING SCOPES
+SCHOOL)
 
-From 09/21   
+From 09/21 to 01/22     
 Course JavaScript Web Application Development
 IT-Academy 
 

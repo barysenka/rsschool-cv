@@ -1,0 +1,183 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.header-wrap-blue{
+    border-right: 100vw solid rgb(8, 62, 89);
+    border-top: 180px solid rgb(8, 62, 89);
+    border-bottom: 70px solid transparent;  
+}
+
+.header-wrap-pink{
+    border-left: 70vw solid rgb(196, 10, 67);
+    border-top: 48px solid transparent;
+    position: absolute;
+    top: 180px;
+}
+
+.header-wrap-blue > div{
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    top: 0;
+}
+
+h1{
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.header-title > div {
+    font-size: 1.5em;
+}
+
+.header-wrap-blue > div > img {
+    width: 200px;
+    border-radius: 200px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+}
+.wrap-main{
+    display: flex;
+    min-height: calc(100% - 300px);
+    width: 1800px;
+}
+a {
+    text-decoration:none;
+    color:rgb(196, 10, 67);
+}
+
+a:hover {
+    color:rgb(0, 0, 0);
+}
+
+.article-Contacts li,
+.article-projects li {
+    list-style-type: none; 
+}
+.article-Skills li,
+.article-Languages li {
+    list-style-type: disc; 
+    color:rgb(196, 10, 67);
+    line-height: 1.5;
+    padding: 3px 0;
+}
+
+.article-Skills span, 
+.article-Languages span {
+    color:rgb(0, 0, 0);
+}
+
+.article-Skills > ul, 
+.article-Languages > ul {
+    margin-left: 20px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+
+h2 {
+    background-color:rgb(8, 62, 89);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.section-right{
+    flex: 0 1 60%;
+    margin: 20px;
+}
+
+.section-left{
+    flex: 0 1 40%;
+    margin: 20px;
+}
+
+.article-Contacts > nav > ul > li{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.article-Education > div {
+    display: flex;
+    margin: 10px 0;
+}
+
+.article-Education > div > div{
+    margin-right: 10px;
+    
+}
+.Education-period{   
+    flex: 0 1 20%;
+}
+.Education-organization{
+    flex: 0 1 35%;
+    font-weight: 600;
+}
+.Education-specialty{
+    flex: 0 1 35%;
+}
+
+.article-Contacts >nav > ul > li > a, .article-Contacts > nav > ul > li > div {
+    margin-left: 10px;
+}
+.material-icons{
+    font-size: 48px; 
+}
+.icon{
+    height: 48px; 
+}
+pre{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    position: relative;
+    border-right: 100vw solid rgb(8, 62, 89);
+    border-top: 60px solid transparent;
+}
+.footer-wrap-pink{
+    position: relative;
+    border-left: 70vw solid rgb(196, 10, 67);
+    border-bottom: 40px solid transparent;
+    bottom: -60px;
+}
+.footer-wrap{    
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer-wrap > span {
+    color:rgb(255, 255, 255);
+    font-size: 1.5em;
+}
+.footer-wrap > a {
+    font-size: 1.5em;
+    color:rgb(255, 255, 255);
+}
+
+.footer-wrap_logo > img{
+    width: 100px;
+}
